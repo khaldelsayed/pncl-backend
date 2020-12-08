@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb"
+  ],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "max-line-length": [
+      true,
+      120
+    ],
+    "trailing-comma": false,
+    "match-default-export-name": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "no-this-assignment": false
+  },
+  "rulesDirectory": []
+}
