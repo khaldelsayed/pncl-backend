@@ -9,6 +9,12 @@
 - First call the endpoint to load topics and wait until all topics are completely loaded in the database.
 - Call the endpoint to load questions.
 
+### Note
+```
+Heroku process that hosts the app, after a period of time as idle, it stops working.
+So with the first API request, it will take some time to start up again then it works fine. 
+
+```
 ### Heroku server endpoints
 - https://pncl-backend-app.herokuapp.com/api/questions/search?q=Inheritance
 - https://pncl-backend-app.herokuapp.com/api/topics/load
